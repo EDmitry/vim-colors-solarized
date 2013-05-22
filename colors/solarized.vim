@@ -774,6 +774,10 @@ exe "hi! perlVarPlain"   . s:fg_yellow .s:bg_back   .s:fmt_none
 exe "hi! perlStatementFileDesc". s:fg_cyan.s:bg_back.s:fmt_none
 
 "}}}
+" objc highlighting "{{{
+" ---------------------------------------------------------------------
+exe "hi! Function"     .s:fmt_bold   .s:fg_violet .s:bg_none
+"}}}
 " tex highlighting "{{{
 " ---------------------------------------------------------------------
 exe "hi! texStatement"   . s:fg_cyan   .s:bg_back   .s:fmt_none
